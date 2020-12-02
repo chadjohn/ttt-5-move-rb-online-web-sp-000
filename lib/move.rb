@@ -19,7 +19,7 @@ def move(board, index, player)
   array[index] = player
 end
 
-update_array_at_with(board, 0, "X")
+move(board, 0, "X")
 
 def number_adder(n)
   n += 10
