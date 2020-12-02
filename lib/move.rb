@@ -10,8 +10,7 @@ end
 # code your input_to_index and move method here!
 #input_to_index
 def input_to_index(user_input)
-  new_user = user_input.to_i
-  new_user -= 1
+  user_input.to_i - 1
   return user_input
 end
 
