@@ -11,15 +11,16 @@ end
 #input_to_index
 def input_to_index(user_input)
   user_input.to_i - 1
+  user_input -=1
 end
 
 #move
 board = [" ", " ", " "]
-def move(array, index, value)
+def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-move(board, 1, "X")
+update_array_at_with(board, 0, "X")
 board
 
 def number_adder(n)
