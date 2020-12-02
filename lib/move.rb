@@ -20,6 +20,7 @@ def move(array, index, value)
 end
 
 move(board, 0, "X")
+board
 
 def number_adder(n)
   n += 10
