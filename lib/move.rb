@@ -10,11 +10,11 @@ end
 
 display_board(board)
 #input_to_index
-def input_to_index(user_input)
+#def input_to_index(user_input)
   user_input.to_i - 1
 end
 
 #move
-def update_array_at_with(array, index, value)
+#def update_array_at_with(array, index, value)
   board[index] = value
 end
