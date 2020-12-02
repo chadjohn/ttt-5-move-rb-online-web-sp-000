@@ -19,7 +19,7 @@ def move(array, index, value)
   array[index] = value
 end
 
-move(board, 0, "X")
+move(board, 1, "X")
 board
 
 def number_adder(n)
