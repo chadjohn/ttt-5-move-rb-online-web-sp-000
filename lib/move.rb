@@ -8,13 +8,13 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-display_board(board)
+#display_board(board)
 #input_to_index
-#def input_to_index(user_input)
-#  user_input.to_i - 1
-#end
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
 
 #move
-#def update_array_at_with(array, index, value)
-#  board[index] = value
-#end
+def update_array_at_with(board, index, player)
+  board[index] = player
+end
