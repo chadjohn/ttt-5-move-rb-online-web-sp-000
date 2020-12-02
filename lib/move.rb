@@ -15,7 +15,7 @@ end
 
 #move
 board = [" ", " ", " "]
-def move(board, index, player)
+def move(array, index, player)
   array[index] = player
 end
 
