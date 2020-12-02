@@ -15,28 +15,7 @@ def input_to_index(user_input)
 end
 
 #move
-board = [" ", " ", " "]
-def update_array_at_with(array, index, value)
+def update_array_at_with(array, index, value = "X")
   array[index] = value
+  return board
 end
-
-update_array_at_with(board, 0, "X")
-board
-
-def number_adder(n)
-  n += 10
-end
-
-def array_adder(a)
-  a << "new thing at the end of the array"
-end
-
-x = 10
-puts "Before call #{x}"
-number_adder(x)
-puts "After call: #{x}: Holy moly unchanged!"
-
-z = [1, 'hi', "Bryon"]
-puts "Before call #{z}"
-array_adder(z)
-puts "After call #{z}: Holy moly, *changed*!"
